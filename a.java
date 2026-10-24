@@ -1,3 +1,5 @@
+// overload
+
 class Student {
     int id;
     String name;
@@ -21,7 +23,7 @@ class Student {
     }
 } // Student
 
-class Main {
+class a {
     public static void main(String[] args){
         Student st1=new Student(); //default constructor
         Student st2=new Student(45, "Aashish"); //overloaded constructor with 2 parameters
